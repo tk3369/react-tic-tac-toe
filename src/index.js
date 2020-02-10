@@ -65,7 +65,7 @@ class Game extends React.Component {
   }
 
   handleClick(i) {
-    const history = this.state.history;
+    const history = this.state.history.slice(0, this.state.currentIndex+1);
     const current = history[this.state.currentIndex];
     const squares = current.squares.slice(); // create copy!
     if (calculateWinner(squares) != null || squares[i] != null) {

@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tic Tae Toe with React
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  Then, I followed the [tutorial](https://reactjs.org/tutorial/tutorial.html).  
+
+Towards the end, some code are written slightly differently e.g. the `calcualteWinner` function is coded with a functional programming style.
 
 ## Available Scripts
 
